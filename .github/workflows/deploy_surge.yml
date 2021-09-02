@@ -3,7 +3,7 @@ name: Deploy website with surge
 on:
   push:
     branches:
-      [master]
+      - master
      
 jobs:
   build:
